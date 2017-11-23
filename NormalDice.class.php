@@ -1,7 +1,7 @@
 <?php
   require_once 'Dice.class.php';
 
-  class NormalDice extends Dice {
+  final class NormalDice extends Dice {
     private $allPicutres = [
       "image/normal/dice-six-faces-one.png",
       "image/normal/dice-six-faces-two.png",
