@@ -20,7 +20,7 @@
     }
 
     protected function generateNumber() {
-      $this->randomNumber = rand($this->getStartNumber(), $this->getEndNumber());
+      $this->randomNumber = random_int($this->getStartNumber(), $this->getEndNumber());
       return($this->randomNumber);
     }
 
