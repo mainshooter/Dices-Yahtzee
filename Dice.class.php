@@ -1,6 +1,6 @@
 <?php
 
-  class Dice {
+  abstract class Dice {
     private $startNumber;
     private $endNumber;
 
@@ -28,7 +28,7 @@
       return($this->generateNumber());
     }
 
-    // abstract public function roll();
+    abstract public function roll();
   }
 
 
