@@ -3,7 +3,7 @@
   abstract class Dice {
     private $startNumber;
     private $endNumber;
-    protected $allPicutres
+    protected $allPicutres;
     private $randomNumber;
 
     /**
